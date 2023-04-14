@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+    
+    background-color: bisque;
+    align-items: center;
+   
+  }
+  body {
+    min-height: 100vh;
+    align-items : center ;
+    justify-content : center;
+  
+  }
+  
+  .bar-chart {
+    margin-top: 5vh;
+    background-color: #eee;
+    padding: 50px 20px 30px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .bar-chart #chart {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: center;
+    padding : 10 10 10 20;
+  }
+  form-group {
+    margin-right : 50;
+  }
+  form-group1 {
+    padding : 10 10 10 20;
+    margin-left: 20px;
+  }
+  label {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  input {
+    cursor: pointer;
+    left : 500;
+    text-align : middle;
+    display : inline-block ;
+  }
+  inputs {
+    cursor : pointer;
+    display : inline-block;
+   
+  }
+  output {
+    cursor: pointer;
+    left : 500;
+    text-align : middle;
+    display : block ;
+  
+  }
+  rect:hover {
+    cursor: pointer;
+  }
+  
+  footer {
+    width: 100%;
+    color: #8c8c8c;
+  
+    margin: auto;
+    margin-top: 5vh;
+  }
+  
+  footer p {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  footer .footer-text {
+    margin: auto;
+  } 
+  .line-through {
+    text-decoration: line-through !important;
+  }
